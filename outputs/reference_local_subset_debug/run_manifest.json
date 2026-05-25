@@ -1,0 +1,18 @@
+{
+  "bg_variants": "",
+  "eqtl_output_dir": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl",
+  "gwas_output_dir": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas",
+  "method_name": "",
+  "mode": "local_subset_debug",
+  "normalized_predictions": "",
+  "plot_output_dir": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots",
+  "plots": {
+    "figure2d": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2d.paper_style.pdf",
+    "figure2d_to_h": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2d_to_h.paper_style.pdf",
+    "figure2e": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2e.paper_style.pdf",
+    "figure2f": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2f.paper_style.pdf",
+    "figure2g": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2g.paper_style.pdf",
+    "figure2h": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/plots/figure2h.paper_style.pdf"
+  },
+  "score_threshold": ""
+}

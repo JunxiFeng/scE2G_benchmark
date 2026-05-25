@@ -1,0 +1,22 @@
+{
+  "analysis": "eQTL",
+  "bg_variants": "",
+  "mode": "local_subset_debug",
+  "normalized_predictions": "",
+  "outputs": {
+    "curve_table": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/metrics/figure2d_curve_table.tsv",
+    "fixed_recall_table": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/metrics/figure2e_fixed_recall_table.tsv",
+    "method_coverage": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/manifests/method_coverage.tsv",
+    "missing_requirements": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/manifests/missing_requirements.tsv",
+    "pairwise_significance": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/metrics/figure2e_pairwise_significance.tsv",
+    "panel_traceability": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/manifests/panel_traceability.tsv",
+    "resource_manifest": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/manifests/resource_manifest.tsv",
+    "threshold_points": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/eqtl/metrics/figure2d_threshold_points.tsv"
+  },
+  "score_threshold": "",
+  "source_tables": [
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/eQTL/fine_grained_analysis/enrichmentRecall/enrichmentRecall.GTExTissueAllMatches.tsv",
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/eQTL/fine_grained_analysis/enrichmentAtRecall/enrichments.Recall0.05.GTExTissueAllMatches.tsv",
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/eQTL/fine_grained_analysis/enrichmentAtRecall/pairwiseComparisons.Recall0.05.GTExTissueAllMatches.tsv"
+  ]
+}

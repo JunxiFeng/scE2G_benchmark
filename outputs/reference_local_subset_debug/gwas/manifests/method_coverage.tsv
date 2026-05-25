@@ -1,0 +1,21 @@
+analysis	panel	method	paper_number	display_name	required_for_paper_parity	present_in_local_tables	notes
+GWAS	2f,2g,2h	scE2G_multiome	1	scE2G (Multiome)	True	True	
+GWAS	2f,2g,2h	scE2G_ATAC	2	scE2G (scATAC)	True	True	
+GWAS	2f,2g,2h	Kendall	4	Kendall correlation	False	True	
+GWAS	2f,2g,2h	scABC	5	ABC (A=scATAC, C=power law)	True	True	
+GWAS	2f,2g,2h	SnapATAC	7	SnapATAC	True	True	
+GWAS	2f,2g,2h	Signac	8	Signac	True	True	
+GWAS	2f,2g,2h	Cicero	9	Cicero	True	True	
+GWAS	2f,2g,2h	FigR	10	FigR	True	True	
+GWAS	2f,2g,2h	ScenicPlus	12	SCENIC+	True	True	
+GWAS	2f,2g,2h	DIRECTNET	13	DIRECT-NET	True	True	
+GWAS	2f,2g,2h	ArchR	14	ArchR	True	True	
+GWAS	2f,2g,2h	ABC_distanceToTSS	19	In element (ABC) & distance to TSS	True	True	
+eQTL	2d,2e	scE2G_multiome	1	scE2G (Multiome)	True	True	
+eQTL	2d,2e	scE2G_ATAC	2	scE2G (scATAC)	True	True	
+eQTL	2d,2e	Kendall	4	Kendall correlation	False	True	
+eQTL	2d,2e	scABC	5	ABC (A=scATAC, C=power law)	True	True	
+eQTL	2d,2e	STARE	6	STARE	True	False	Missing from checked-in fine-grained eQTL summary tables.
+eQTL	2d,2e	SCENT	11	SCENT	True	False	Missing from checked-in fine-grained eQTL summary tables.
+eQTL	2d,2e	distanceToTSS	15	Distance to TSS	True	False	No standalone fine-grained eQTL distance-to-TSS method is exposed locally.
+eQTL	2d,2e	ABC_distanceToTSS	19	In element (ABC) & distance to TSS	False	True	

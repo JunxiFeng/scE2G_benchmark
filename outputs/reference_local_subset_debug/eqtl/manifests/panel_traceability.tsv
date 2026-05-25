@@ -1,0 +1,7 @@
+panel	artifact_type	path	notes
+2d	source_table	3.Benchmarking/eQTL/fine_grained_analysis/enrichmentRecall/enrichmentRecall.GTExTissueAllMatches.tsv	All-matches eQTL enrichment-recall curves used to recover the panel-d trajectories.
+2d	source_table	3.Benchmarking/eQTL/fine_grained_analysis/allMatchedPredictionMetrics.tsv	Suggested-threshold recall summaries used to identify the highlighted threshold point on each curve.
+2d	paper_page	sce2g.pdf	Paper text on page 6 and Figure 2 on page 7 identify panel 2d as the eQTL curve panel.
+2e	source_table	3.Benchmarking/eQTL/fine_grained_analysis/enrichmentAtRecall/enrichments.Recall0.05.GTExTissueAllMatches.tsv	Fixed-recall eQTL enrichment table underlying the paper's 5% recall panel.
+2e	pairwise_table	3.Benchmarking/eQTL/fine_grained_analysis/enrichmentAtRecall/pairwiseComparisons.Recall0.05.GTExTissueAllMatches.tsv	Pairwise significance table accompanying the fixed-recall enrichment bars.
+2e	paper_page	sce2g.pdf	Paper text on page 6 states panel 2e is evaluated at a recall of 5%.

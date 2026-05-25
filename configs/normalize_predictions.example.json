@@ -1,0 +1,12 @@
+{
+  "column_map": {
+    "chr": "chrom",
+    "start": "start",
+    "end": "end",
+    "TargetGene": "target_gene",
+    "CellType": "biosample",
+    "E2G.Score": "score"
+  },
+  "method": "example_method",
+  "biosample_aliases_tsv": "configs/biosample_aliases.tsv"
+}

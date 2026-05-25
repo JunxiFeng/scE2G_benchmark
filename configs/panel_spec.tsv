@@ -1,0 +1,6 @@
+panel	analysis	description	required_mode	primary_reference_tables
+2d	eQTL	enrichment-recall curves with suggested-threshold highlights	paper_parity	3.Benchmarking/eQTL/fine_grained_analysis/enrichmentRecall/enrichmentRecall.GTExTissueAllMatches.tsv
+2e	eQTL	enrichment at fixed 5% recall	paper_parity	3.Benchmarking/eQTL/fine_grained_analysis/enrichmentAtRecall/enrichments.Recall0.05.GTExTissueAllMatches.tsv
+2f	GWAS	variant-overlap enrichment versus recall	paper_parity	3.Benchmarking/GWAS/fine_grained_analysis/enrichmentRecallCurves/Blood_matched.values.tsv.gz
+2g	GWAS	gene-linking precision versus recall	paper_parity	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.geneLinking.tsv
+2h	GWAS	gene-linking precision versus recall with PoPS	paper_parity	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.geneLinking.tsv

@@ -1,0 +1,21 @@
+analysis	method	paper_number	display_name	required_for_paper_parity	notes
+eQTL	scE2G_multiome	1	scE2G (Multiome)	TRUE	Required in paper panels 2d and 2e.
+eQTL	scE2G_ATAC	2	scE2G (scATAC)	TRUE	Required in paper panels 2d and 2e.
+eQTL	scABC	5	ABC (A=scATAC, C=power law)	TRUE	Required in paper panels 2d and 2e.
+eQTL	STARE	6	STARE (gABC, power law)	TRUE	Missing from checked-in fine-grained eQTL summary outputs.
+eQTL	SCENT	11	SCENT	TRUE	Missing from checked-in fine-grained eQTL summary outputs.
+eQTL	distanceToTSS	15	Distance to TSS	TRUE	Standalone paper-style method 15 baseline is not exposed in local fine-grained eQTL outputs.
+eQTL	Kendall	4	Kendall correlation	FALSE	Present locally and useful for local subset debug runs.
+eQTL	ABC_distanceToTSS	19	In element (ABC) & distance to TSS	FALSE	Present locally and used as the closest available local baseline in debug mode.
+GWAS	scE2G_multiome	1	scE2G (Multiome)	TRUE	Present locally.
+GWAS	scE2G_ATAC	2	scE2G (scATAC)	TRUE	Present locally.
+GWAS	scABC	5	ABC (A=scATAC, C=power law)	TRUE	Present locally.
+GWAS	Kendall	4	Kendall correlation	FALSE	Present locally.
+GWAS	SnapATAC	7	SnapATAC	TRUE	Present locally.
+GWAS	Signac	8	Signac	TRUE	Present locally.
+GWAS	Cicero	9	Cicero	TRUE	Present locally.
+GWAS	FigR	10	FigR	TRUE	Present locally.
+GWAS	ScenicPlus	12	SCENIC+	TRUE	Present locally.
+GWAS	DIRECTNET	13	DIRECT-NET	TRUE	Present locally.
+GWAS	ArchR	14	ArchR	TRUE	Present locally.
+GWAS	ABC_distanceToTSS	19	In element (ABC) & distance to TSS	TRUE	Present locally.

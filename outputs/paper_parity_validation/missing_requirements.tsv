@@ -1,0 +1,4 @@
+requirement_type	analysis	identifier	path	exists_locally	notes
+method	eQTL	STARE		False	Missing from checked-in fine-grained eQTL summary tables.
+method	eQTL	SCENT		False	Missing from checked-in fine-grained eQTL summary tables.
+method	eQTL	distanceToTSS		False	No standalone fine-grained eQTL distance-to-TSS method is exposed locally.

@@ -1,0 +1,23 @@
+{
+  "biosamples": [
+    "BMMC22_CD14_pos_Mono",
+    "PBMC_10_cDC",
+    "PBMC_11_CD14.Mono.1"
+  ],
+  "columns": [
+    "chrom",
+    "start",
+    "end",
+    "target_gene",
+    "biosample",
+    "score",
+    "method",
+    "source_note"
+  ],
+  "input_path": "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_benchmark/examples/example_predictions.tsv",
+  "methods": [
+    "example_model"
+  ],
+  "output_path": "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_benchmark/outputs/normalized/example_predictions.normalized.tsv",
+  "rows": 3
+}

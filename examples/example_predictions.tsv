@@ -1,0 +1,4 @@
+chrom	start	end	target_gene	biosample	score	method	source_note
+chr1	100000	100500	GENE1	PBMC_10_cDC	0.87	example_method	example_row_1
+chr1	200000	200350	GENE2	PBMC_11_CD14.Mono.1	0.73	example_method	example_row_2
+chr2	300000	300600	GENE3	BMMC22_CD14_pos_Mono	0.66	example_method	example_row_3

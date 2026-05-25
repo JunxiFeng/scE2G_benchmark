@@ -1,0 +1,5 @@
+panel	artifact_type	path	notes
+2f	source_table	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.variantOverlap.tsv	Variant overlap subpanel source.
+2g	source_table	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.geneLinking.tsv	Gene-linking subpanel source without PoPS intersection.
+2h	source_table	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.geneLinking.tsv	Gene-linking subpanel source with PoPS intersection.
+2f-2h	plot_artifact	3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.scatter.pdf	Existing three-panel GWAS thresholded comparison artifact.

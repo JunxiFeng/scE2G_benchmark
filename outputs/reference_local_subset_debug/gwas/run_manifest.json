@@ -1,0 +1,22 @@
+{
+  "analysis": "GWAS",
+  "bg_variants": "",
+  "mode": "local_subset_debug",
+  "normalized_predictions": "",
+  "outputs": {
+    "curve_table": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/metrics/figure2f_curve_table.tsv",
+    "method_coverage": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/manifests/method_coverage.tsv",
+    "missing_requirements": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/manifests/missing_requirements.tsv",
+    "panel_traceability": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/manifests/panel_traceability.tsv",
+    "resource_manifest": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/manifests/resource_manifest.tsv",
+    "thresholded_gene_linking": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/metrics/figure2g_thresholded_gene_linking.tsv",
+    "thresholded_gene_linking_with_pops": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/metrics/figure2h_thresholded_gene_linking_with_pops.tsv",
+    "thresholded_overlap": "wenkai/scE2G_benchmark/outputs/reference_local_subset_debug/gwas/metrics/figure2f_thresholded_variant_overlap.tsv"
+  },
+  "score_threshold": "",
+  "source_tables": [
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/GWAS/fine_grained_analysis/enrichmentRecallCurves/Blood_matched.values.tsv.gz",
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.variantOverlap.tsv",
+    "/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/3.Benchmarking/GWAS/fine_grained_analysis/thresholdedPerformanceComparison/Blood_matched.geneLinking.tsv"
+  ]
+}
