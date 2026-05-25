@@ -47,6 +47,17 @@ you must provide a distal-noncoding background SNP BED through either:
 - `--bg-variants /path/to/distal_noncoding_background_snps.bed`
 - `SCE2G_BG_VARIANTS=/path/to/distal_noncoding_background_snps.bed`
 
+The benchmark expects the same background-variant resource used by the original
+scE2G eQTL and GWAS benchmarking pipelines:
+
+- Synapse: `https://www.synapse.org/#!Synapse:syn52264319`
+- original filename: `all.bg.SNPs.hg38.baseline.v1.1.bed.sorted`
+
+If you already downloaded it locally, you can point the benchmark directly at
+it. For example, in this workspace:
+
+- `/data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/all.bg.SNPs.hg38.baseline.v1.1.bed.sorted`
+
 The file should already be filtered to the distal-noncoding partition used by
 the manuscript. A sorted BED is strongly recommended. `bedtools` is also
 strongly recommended for production-size background files.
@@ -108,7 +119,7 @@ Score a new model and append it to the local reference panels:
 python wenkai/scE2G_benchmark/scripts/render_figure2_panels.py \
   --mode local_subset_debug \
   --normalized-predictions wenkai/scE2G_benchmark/outputs/normalized/my_model.normalized.tsv \
-  --bg-variants /path/to/distal_noncoding_background_snps.bed \
+  --bg-variants /data/pinello/PROJECTS/2023_09_JF_SIMBAvariant/wenkai/scE2G_analysis/all.bg.SNPs.hg38.baseline.v1.1.bed.sorted \
   --score-threshold 0.15 \
   --output-dir wenkai/scE2G_benchmark/outputs/my_model_vs_reference
 ```

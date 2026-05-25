@@ -1,5 +1,7 @@
 __pycache__/
 .pytest_cache/
 *.pyc
+.mplconfig/
 outputs/run_*/
 outputs/tmp/
+outputs/example_model_vs_reference/
